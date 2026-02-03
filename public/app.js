@@ -115,7 +115,7 @@ function updateConnectionStatus(connected) {
         indicator.classList.add('disconnected');
         indicator.classList.remove('connected');
         text.textContent = 'Déconnecté';
-        text.style.color = '#dc2626';
+        text.style.color = '#dc2626'; 
     }
 }
 
